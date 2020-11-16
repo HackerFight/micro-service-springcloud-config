@@ -1,0 +1,17 @@
+﻿spring:
+  profiles:
+    active:
+    - dev
+
+---
+spring:
+  profiles: dev
+  application:
+    name: micro-service-springcloud-config-hacker-dev
+
+---
+
+spring:
+  profiles: dev
+  application:
+    name: micro-service-springcloud-config-hacker-test
