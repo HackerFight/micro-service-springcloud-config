@@ -1,7 +1,6 @@
 ﻿spring:
   profiles:
-    active:
-    - dev
+    active: dev
 
 ---
 spring:
@@ -12,6 +11,6 @@ spring:
 ---
 
 spring:
-  profiles: dev
+  profiles: test
   application:
     name: micro-service-springcloud-config-hacker-test
